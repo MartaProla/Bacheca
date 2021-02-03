@@ -31,11 +31,15 @@
                 <element inactive_on_update="false" label="5" sequence="4" value="95"/>
             </choice>
         </element>
+        <element attributes="encode_utf8=false" label="Utente di sistema" max_length="32" name="u_utente_di_sistema" reference="sys_user" type="reference"/>
         <element label="Hai trovato utile la review?" max_length="40" name="u_utile_review" type="boolean"/>
         <index name="index">
             <element name="utente"/>
         </index>
         <index name="index2">
+            <element name="u_utente_di_sistema"/>
+        </index>
+        <index name="index3">
             <element name="id_annuncio"/>
         </index>
     </element>

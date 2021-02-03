@@ -4,41 +4,55 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-01 10:14:08</sys_created_on>
-            <sys_id>438dc6fddbca60108dd29444ca96195f</sys_id>
+            <sys_created_on>2021-02-03 11:57:46</sys_created_on>
+            <sys_id>ac787c6adbc6e0108dd29444ca96192e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Annuncio" display_value="Annuncio" name="x_570201_bacheca_annuncio" sys_domain="global" view="Default view">817b82dddb4620108dd29444ca96192e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-01 10:14:08</sys_updated_on>
+            <sys_updated_on>2021-02-03 11:57:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_user_riferimento</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-03 11:57:46</sys_created_on>
+            <sys_id>64787c6adbc6e0108dd29444ca96192f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Annuncio" display_value="Annuncio" name="x_570201_bacheca_annuncio" sys_domain="global" view="Default view">817b82dddb4620108dd29444ca96192e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-03 11:57:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-01 10:14:08</sys_created_on>
-            <sys_id>c38dc6fddbca60108dd29444ca96195f</sys_id>
+            <sys_created_on>2021-02-03 11:57:46</sys_created_on>
+            <sys_id>e4787c6adbc6e0108dd29444ca96192f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Annuncio" display_value="Annuncio" name="x_570201_bacheca_annuncio" sys_domain="global" view="Default view">817b82dddb4620108dd29444ca96192e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-01 10:14:08</sys_updated_on>
+            <sys_updated_on>2021-02-03 11:57:46</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>tipo_annuncio</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-01 10:14:08</sys_created_on>
-            <sys_id>478dc6fddbca60108dd29444ca96195f</sys_id>
+            <sys_created_on>2021-02-03 11:57:46</sys_created_on>
+            <sys_id>68787c6adbc6e0108dd29444ca96192f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Annuncio" display_value="Annuncio" name="x_570201_bacheca_annuncio" sys_domain="global" view="Default view">817b82dddb4620108dd29444ca96192e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-01 10:14:08</sys_updated_on>
+            <sys_updated_on>2021-02-03 11:57:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

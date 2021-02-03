@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-03 11:42:46</sys_created_on>
+        <sys_id>dfd4b4a6dbc6e0108dd29444ca9619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_570201_bacheca_review.x_570201_bacheca.editor</sys_name>
+        <sys_package display_value="Bacheca" source="x_570201_bacheca">42a7c611db8620108dd29444ca9619cb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bacheca">42a7c611db8620108dd29444ca9619cb</sys_scope>
+        <sys_security_acl display_value="x_570201_bacheca_review">253b0ad1db8620108dd29444ca9619da</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_dfd4b4a6dbc6e0108dd29444ca9619f8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-03 11:42:46</sys_updated_on>
+        <sys_user_role display_value="x_570201_bacheca.editor" name="x_570201_bacheca.editor">85aecc6adb46e0108dd29444ca961904</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

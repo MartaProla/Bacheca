@@ -96,14 +96,18 @@
         <element attributes="encode_utf8=false" label="Utente che promuove la proposta" max_length="32" name="utente_promotore" reference="x_570201_bacheca_utente" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Data evento aziendale" max_length="40" name="u_data_aziendale" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Data inserimento proposta" max_length="40" name="u_inserimento_proposta" type="glide_date"/>
+        <element attributes="encode_utf8=false" label="Utente di sistema per i ruoli" max_length="32" name="u_user_riferimento" reference="sys_user" type="reference"/>
         <element attributes="encode_utf8=false" label="Utente" max_length="32" name="u_utente" reference="x_570201_bacheca_utente" type="reference"/>
         <index name="index">
-            <element name="u_utente"/>
+            <element name="u_user_riferimento"/>
         </index>
         <index name="index2">
-            <element name="utente_organizzatore_informale"/>
+            <element name="u_utente"/>
         </index>
         <index name="index3">
+            <element name="utente_organizzatore_informale"/>
+        </index>
+        <index name="index4">
             <element name="utente_promotore"/>
         </index>
     </element>

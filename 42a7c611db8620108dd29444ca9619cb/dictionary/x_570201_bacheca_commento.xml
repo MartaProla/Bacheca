@@ -22,12 +22,16 @@
         <element default="true" label="Hai trovato utile il commento?" max_length="40" name="u_commento_utile" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Inserisci atro motivo" max_length="40" name="u_inse_motivo" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Se no, perchè?" max_length="1000" name="u_no_per" type="string"/>
+        <element attributes="encode_utf8=false" label="Utente di riferimento" max_length="32" name="u_riferiemnto" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Se sì,perchè?" max_length="1000" name="u_si_per" type="string"/>
         <index name="index">
             <element name="utente_che_scrive"/>
         </index>
         <index name="index2">
             <element name="id_annuncio"/>
+        </index>
+        <index name="index3">
+            <element name="u_riferiemnto"/>
         </index>
     </element>
 </database>
