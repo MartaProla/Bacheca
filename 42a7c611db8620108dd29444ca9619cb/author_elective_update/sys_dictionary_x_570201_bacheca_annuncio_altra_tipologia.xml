@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="altra_tipologia" table="x_570201_bacheca_annuncio">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>edge_encryption_enabled=true</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Altra tipologia</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>altra_tipologia</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>x_570201_bacheca_annuncio</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-30 20:55:48</sys_created_on>
+        <sys_id>8b3d8a55db8620108dd29444ca961920</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Altra tipologia</sys_name>
+        <sys_package display_value="Bacheca" source="x_570201_bacheca">42a7c611db8620108dd29444ca9619cb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bacheca">42a7c611db8620108dd29444ca9619cb</sys_scope>
+        <sys_update_name>sys_dictionary_x_570201_bacheca_annuncio_altra_tipologia</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-30 20:55:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Bacheca">42a7c611db8620108dd29444ca9619cb</application>
+        <file_path/>
+        <instance_id>fc8d6998db7dd7048264f70fbf961977</instance_id>
+        <instance_name>dev57482</instance_name>
+        <name>sys_dictionary_x_570201_bacheca_annuncio_altra_tipologia</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="altra_tipologia" table="x_570201_bacheca_annuncio"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Altra tipologia</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>altra_tipologia</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_570201_bacheca_annuncio</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-01-30 20:55:48</sys_created_on><sys_id>8b3d8a55db8620108dd29444ca961920</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Altra tipologia</sys_name><sys_package display_value="Bacheca" source="x_570201_bacheca">42a7c611db8620108dd29444ca9619cb</sys_package><sys_policy/><sys_scope display_value="Bacheca">42a7c611db8620108dd29444ca9619cb</sys_scope><sys_update_name>sys_dictionary_x_570201_bacheca_annuncio_altra_tipologia</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-01-30 20:55:48</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>1307225771</payload_hash>
+        <record_name>Annuncio.Altra tipologia</record_name>
+        <reverted_from/>
+        <source>42a7c611db8620108dd29444ca9619cd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-30 20:55:49</sys_created_on>
+        <sys_id>cb3d8a55db8620108dd29444ca96196a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177551498e20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-30 20:55:49</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>473d8a55678620101fb4324c26a0a06a</update_guid>
+        <update_guid_history>473d8a55678620101fb4324c26a0a06a:1307225771,56578651ec8620103f8af9bca5a07ce5:2084186706,089b1499de4220109c2fc69107f1c2b7:-1899209850,6dd533f82e062010aadfb8aea86a41fb:-1688820363,886713b4ffc2201053f678635ec36700:-1801892734,bf57df745bc2201026438634c1bc25c8:-1688820363</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-30 22:50:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>4c4c6f9be9c14e03a825f5d76db9c381</sys_id>
+        <sys_metadata>8b3d8a55db8620108dd29444ca961920</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Altra tipologia</sys_name>
+        <sys_package display_value="Bacheca" source="x_570201_bacheca">42a7c611db8620108dd29444ca9619cb</sys_package>
+        <sys_parent display_value="Annuncio">e1e84a91db8620108dd29444ca961969</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Bacheca">42a7c611db8620108dd29444ca9619cb</sys_scope>
+        <sys_scope_delete display_value="">3f00cfae93fa491187ff8b5226eb3649</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_570201_bacheca_annuncio_altra_tipologia</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_570201_bacheca_annuncio_altra_tipologia">cb3d8a55db8620108dd29444ca96196a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-30 22:50:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

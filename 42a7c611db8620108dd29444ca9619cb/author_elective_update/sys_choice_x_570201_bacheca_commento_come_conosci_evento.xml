@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="come_conosci_evento" table="x_570201_bacheca_commento" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>come_conosci_evento</element>
+            <name>x_570201_bacheca_commento</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-31 07:27:12</sys_created_on>
+            <sys_id>cccd1825db0e20108dd29444ca9619da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>come_conosci_evento</sys_name>
+            <sys_package display_value="Bacheca" source="x_570201_bacheca">42a7c611db8620108dd29444ca9619cb</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Bacheca">42a7c611db8620108dd29444ca9619cb</sys_scope>
+            <sys_update_name>sys_choice_x_570201_bacheca_commento_come_conosci_evento</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-31 07:27:12</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>come_conosci_evento</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Social</label>
+            <language>en</language>
+            <name>x_570201_bacheca_commento</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-31 07:27:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>44cd1825db0e20108dd29444ca9619da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-31 07:27:12</sys_updated_on>
+            <value>70</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>come_conosci_evento</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Amici</label>
+            <language>en</language>
+            <name>x_570201_bacheca_commento</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-31 07:27:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0ccd1825db0e20108dd29444ca9619dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-31 07:27:12</sys_updated_on>
+            <value>71</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>come_conosci_evento</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Colleghi di lavoro</label>
+            <language>en</language>
+            <name>x_570201_bacheca_commento</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-31 07:27:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8ccd1825db0e20108dd29444ca9619dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-31 07:27:12</sys_updated_on>
+            <value>72</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>come_conosci_evento</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Altro motivo</label>
+            <language>en</language>
+            <name>x_570201_bacheca_commento</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-31 07:27:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>00cd1825db0e20108dd29444ca9619df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-31 07:27:12</sys_updated_on>
+            <value>altro_motivo</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

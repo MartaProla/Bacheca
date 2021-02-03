@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="b63d4a55db8620108dd29444ca9619da" sys_domain="global" table="x_570201_bacheca_annuncio" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-30 20:55:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>be3d8a55db8620108dd29444ca96190e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_570201_bacheca_annuncio" name="x_570201_bacheca_annuncio" sys_domain="global" view="Default view">b63d4a55db8620108dd29444ca9619da</sys_ui_form>
+            <sys_ui_section caption="Annuncio" display_value="Annuncio" name="x_570201_bacheca_annuncio" sys_domain="global" view="Default view">817b82dddb4620108dd29444ca96192e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-30 20:55:48</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-30 20:55:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ba3d8a55db8620108dd29444ca96190f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_570201_bacheca_annuncio" name="x_570201_bacheca_annuncio" sys_domain="global" view="Default view">b63d4a55db8620108dd29444ca9619da</sys_ui_form>
+            <sys_ui_section caption="Organizzazione evento aziendale" display_value="Organizzazione evento aziendale" name="x_570201_bacheca_annuncio" sys_domain="global" view="Default view">323d4a55db8620108dd29444ca9619d8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-30 20:55:48</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-30 20:55:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4f3d8a55db8620108dd29444ca961912</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_570201_bacheca_annuncio" name="x_570201_bacheca_annuncio" sys_domain="global" view="Default view">b63d4a55db8620108dd29444ca9619da</sys_ui_form>
+            <sys_ui_section caption="Proposta per miglioramento della qualità" display_value="Proposta per miglioramento della qualità" name="x_570201_bacheca_annuncio" sys_domain="global" view="Default view">ba3d4a55db8620108dd29444ca9619d8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-30 20:55:48</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-30 20:55:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c33d8a55db8620108dd29444ca961916</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_570201_bacheca_annuncio" name="x_570201_bacheca_annuncio" sys_domain="global" view="Default view">b63d4a55db8620108dd29444ca9619da</sys_ui_form>
+            <sys_ui_section caption="Organizzazione evento informale" display_value="Organizzazione evento informale" name="x_570201_bacheca_annuncio" sys_domain="global" view="Default view">763d4a55db8620108dd29444ca9619d9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-30 20:55:48</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_570201_bacheca_annuncio</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-30 20:55:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b63d4a55db8620108dd29444ca9619da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_570201_bacheca_annuncio</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Bacheca" source="x_570201_bacheca">42a7c611db8620108dd29444ca9619cb</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Bacheca">42a7c611db8620108dd29444ca9619cb</sys_scope>
+            <sys_update_name>sys_ui_form_sections_b63d4a55db8620108dd29444ca9619da</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-30 20:55:48</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

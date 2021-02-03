@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_nome" label="Nome" language="en" table="x_570201_bacheca_bacheca_utenti2">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_nome</element>
+            <help/>
+            <hint/>
+            <label>Nome</label>
+            <language>en</language>
+            <name>x_570201_bacheca_bacheca_utenti2</name>
+            <plural>Nomes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-01 17:09:40</sys_created_on>
+            <sys_id>f1ac63bddbce60108dd29444ca9619f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Nome</sys_name>
+            <sys_package display_value="Bacheca" source="x_570201_bacheca">42a7c611db8620108dd29444ca9619cb</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Bacheca">42a7c611db8620108dd29444ca9619cb</sys_scope>
+            <sys_update_name>sys_documentation_x_570201_bacheca_bacheca_utenti2_u_nome_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-01 17:09:40</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

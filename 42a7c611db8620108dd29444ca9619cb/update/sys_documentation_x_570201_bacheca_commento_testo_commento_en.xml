@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="testo_commento" label="Testo commento" language="en" table="x_570201_bacheca_commento">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>testo_commento</element>
+            <help/>
+            <hint/>
+            <label>Testo commento</label>
+            <language>en</language>
+            <name>x_570201_bacheca_commento</name>
+            <plural>Testo commentos</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-30 20:42:33</sys_created_on>
+            <sys_id>853a0ad1db8620108dd29444ca961966</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Testo commento</sys_name>
+            <sys_package display_value="Bacheca" source="x_570201_bacheca">42a7c611db8620108dd29444ca9619cb</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Bacheca">42a7c611db8620108dd29444ca9619cb</sys_scope>
+            <sys_update_name>sys_documentation_x_570201_bacheca_commento_testo_commento_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-30 20:42:33</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

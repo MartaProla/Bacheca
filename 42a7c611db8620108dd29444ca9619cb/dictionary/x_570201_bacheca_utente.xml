@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Utente" max_length="40" name="x_570201_bacheca_utente" sizeclass="6" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Codice fiscale" max_length="40" name="codice_f" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Cognome" mandatory="true" max_length="40" name="cognome" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Data di nascita" max_length="40" name="data_di_nascita" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Dove lavora" max_length="40" name="dove_lavora" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Luogo di nascita" max_length="40" name="luogo_nascita" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Nome" mandatory="true" max_length="40" name="nome" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Ruolo ricoperto" max_length="40" name="ruolo" type="string"/>
+    </element>
+</database>

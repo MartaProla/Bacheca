@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Commento" max_length="40" name="x_570201_bacheca_commento" sizeclass="8" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Cognome Utente" max_length="40" name="cognome_utente" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="70" label="Come si è venuta a conoscenza dell'evento" max_length="40" name="come_conosci_evento" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Social" sequence="0" value="70"/>
+                <element inactive_on_update="false" label="Amici" sequence="1" value="71"/>
+                <element inactive_on_update="false" label="Colleghi di lavoro" sequence="2" value="72"/>
+                <element inactive_on_update="false" label="Altro motivo" sequence="3" value="altro_motivo"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Data scrittura commento" mandatory="true" max_length="40" name="data_commento" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Data pubblicazione annuncio" max_length="40" name="data_pubblicazione_annuncio" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Email utente" max_length="40" name="email_utente" type="string"/>
+        <element attributes="encode_utf8=false" label="ID annuncio" max_length="32" name="id_annuncio" reference="x_570201_bacheca_annuncio" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Motivo di interesse" max_length="40" name="motivo_di_interesse" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Nome Utente" max_length="40" name="nome_utente" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Testo commento" mandatory="true" max_length="1000" name="testo_commento" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Titolo" mandatory="true" max_length="40" name="titolo" type="string"/>
+        <element attributes="encode_utf8=false" label="Utente che lo scrive" max_length="32" name="utente_che_scrive" reference="x_570201_bacheca_utente" type="reference"/>
+        <element default="true" label="Hai trovato utile il commento?" max_length="40" name="u_commento_utile" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Inserisci atro motivo" max_length="40" name="u_inse_motivo" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Se no, perchè?" max_length="1000" name="u_no_per" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Se sì,perchè?" max_length="1000" name="u_si_per" type="string"/>
+        <index name="index">
+            <element name="utente_che_scrive"/>
+        </index>
+        <index name="index2">
+            <element name="id_annuncio"/>
+        </index>
+    </element>
+</database>

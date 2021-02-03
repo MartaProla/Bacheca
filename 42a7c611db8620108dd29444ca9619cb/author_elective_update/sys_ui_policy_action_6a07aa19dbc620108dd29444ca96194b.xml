@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field>altra_tipologia</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-30 22:48:39</sys_created_on>
+        <sys_id>6a07aa19dbc620108dd29444ca96194b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>altra_tipologia</sys_name>
+        <sys_package display_value="Bacheca" source="x_570201_bacheca">42a7c611db8620108dd29444ca9619cb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bacheca">42a7c611db8620108dd29444ca9619cb</sys_scope>
+        <sys_update_name>sys_ui_policy_action_6a07aa19dbc620108dd29444ca96194b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-30 22:48:39</sys_updated_on>
+        <table>x_570201_bacheca_annuncio</table>
+        <ui_policy display_value="2a-Comparsa campo altra proposta">4ca66619dbc620108dd29444ca96194a</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Bacheca">42a7c611db8620108dd29444ca9619cb</application>
+        <file_path/>
+        <instance_id>fc8d6998db7dd7048264f70fbf961977</instance_id>
+        <instance_name>dev57482</instance_name>
+        <name>sys_ui_policy_action_6a07aa19dbc620108dd29444ca96194b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>true</cleared><disabled>ignore</disabled><field>altra_tipologia</field><mandatory>true</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-01-30 22:48:39</sys_created_on><sys_id>6a07aa19dbc620108dd29444ca96194b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>altra_tipologia</sys_name><sys_package display_value="Bacheca" source="x_570201_bacheca">42a7c611db8620108dd29444ca9619cb</sys_package><sys_policy/><sys_scope display_value="Bacheca">42a7c611db8620108dd29444ca9619cb</sys_scope><sys_update_name>sys_ui_policy_action_6a07aa19dbc620108dd29444ca96194b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-01-30 22:48:39</sys_updated_on><table>x_570201_bacheca_annuncio</table><ui_policy display_value="2a-Comparsa campo altra proposta">4ca66619dbc620108dd29444ca96194a</ui_policy><visible>true</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>1760286528</payload_hash>
+        <record_name>altra_tipologia</record_name>
+        <reverted_from/>
+        <source>42a7c611db8620108dd29444ca9619cd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-30 22:48:39</sys_created_on>
+        <sys_id>c017aa19dbc620108dd29444ca961951</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177557be8f60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-30 22:48:39</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>0c17aa191dc620106003c0b938ef8f50</update_guid>
+        <update_guid_history>0c17aa191dc620106003c0b938ef8f50:1760286528</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-30 22:49:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>d67658a3a49749709b5a07c6d021b040</sys_id>
+        <sys_metadata>6a07aa19dbc620108dd29444ca96194b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>altra_tipologia</sys_name>
+        <sys_package display_value="Bacheca" source="x_570201_bacheca">42a7c611db8620108dd29444ca9619cb</sys_package>
+        <sys_parent display_value="">4ca66619dbc620108dd29444ca96194a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Bacheca">42a7c611db8620108dd29444ca9619cb</sys_scope>
+        <sys_scope_delete display_value="">3f00cfae93fa491187ff8b5226eb3649</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_6a07aa19dbc620108dd29444ca96194b</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_6a07aa19dbc620108dd29444ca96194b">c017aa19dbc620108dd29444ca961951</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-30 22:49:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

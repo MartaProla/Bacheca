@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="come_evento" table="x_570201_bacheca_review" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>come_evento</element>
+            <name>x_570201_bacheca_review</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-31 07:54:20</sys_created_on>
+            <sys_id>15f32069db0e20108dd29444ca961911</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>come_evento</sys_name>
+            <sys_package display_value="Bacheca" source="x_570201_bacheca">42a7c611db8620108dd29444ca9619cb</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Bacheca">42a7c611db8620108dd29444ca9619cb</sys_scope>
+            <sys_update_name>sys_choice_x_570201_bacheca_review_come_evento</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-31 07:54:20</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>come_evento</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Social</label>
+            <language>en</language>
+            <name>x_570201_bacheca_review</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-31 07:54:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d9f32069db0e20108dd29444ca961910</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-31 07:54:20</sys_updated_on>
+            <value>100</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>come_evento</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Amici</label>
+            <language>en</language>
+            <name>x_570201_bacheca_review</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-31 07:54:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>55f32069db0e20108dd29444ca961912</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-31 07:54:20</sys_updated_on>
+            <value>101</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>come_evento</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Colleghi di lavoro</label>
+            <language>en</language>
+            <name>x_570201_bacheca_review</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-31 07:54:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d5f32069db0e20108dd29444ca961913</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-31 07:54:20</sys_updated_on>
+            <value>102</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>come_evento</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Altro motivo</label>
+            <language>en</language>
+            <name>x_570201_bacheca_review</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-31 07:54:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>59f32069db0e20108dd29444ca961914</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-31 07:54:20</sys_updated_on>
+            <value>altro_motivo_review</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

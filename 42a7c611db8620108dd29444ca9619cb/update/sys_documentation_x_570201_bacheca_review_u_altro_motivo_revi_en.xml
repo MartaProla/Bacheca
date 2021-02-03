@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_altro_motivo_revi" label="Altro motivo" language="en" table="x_570201_bacheca_review">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_altro_motivo_revi</element>
+            <help/>
+            <hint/>
+            <label>Altro motivo</label>
+            <language>en</language>
+            <name>x_570201_bacheca_review</name>
+            <plural>Altro motivos</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-31 07:54:46</sys_created_on>
+            <sys_id>b3046069db0e20108dd29444ca96191e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Altro motivo</sys_name>
+            <sys_package display_value="Bacheca" source="x_570201_bacheca">42a7c611db8620108dd29444ca9619cb</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Bacheca">42a7c611db8620108dd29444ca9619cb</sys_scope>
+            <sys_update_name>sys_documentation_x_570201_bacheca_review_u_altro_motivo_revi_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-31 07:54:46</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

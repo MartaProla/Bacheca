@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field>benefici</field>
+        <mandatory>false</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-30 21:48:50</sys_created_on>
+        <sys_id>f559929ddb8620108dd29444ca961972</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>benefici</sys_name>
+        <sys_package display_value="Bacheca" source="x_570201_bacheca">42a7c611db8620108dd29444ca9619cb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bacheca">42a7c611db8620108dd29444ca9619cb</sys_scope>
+        <sys_update_name>sys_ui_policy_action_f559929ddb8620108dd29444ca961972</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-30 22:05:59</sys_updated_on>
+        <table>x_570201_bacheca_annuncio</table>
+        <ui_policy display_value="3-Comparsa campi proposta miglioramento">18681a5ddb8620108dd29444ca9619e6</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Bacheca">42a7c611db8620108dd29444ca9619cb</application>
+        <file_path/>
+        <instance_id>fc8d6998db7dd7048264f70fbf961977</instance_id>
+        <instance_name>dev57482</instance_name>
+        <name>sys_ui_policy_action_f559929ddb8620108dd29444ca961972</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>true</cleared><disabled>ignore</disabled><field>benefici</field><mandatory>false</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-01-30 21:48:50</sys_created_on><sys_id>f559929ddb8620108dd29444ca961972</sys_id><sys_mod_count>2</sys_mod_count><sys_name>benefici</sys_name><sys_package display_value="Bacheca" source="x_570201_bacheca">42a7c611db8620108dd29444ca9619cb</sys_package><sys_policy/><sys_scope display_value="Bacheca">42a7c611db8620108dd29444ca9619cb</sys_scope><sys_update_name>sys_ui_policy_action_f559929ddb8620108dd29444ca961972</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-01-30 22:05:59</sys_updated_on><table>x_570201_bacheca_annuncio</table><ui_policy display_value="3-Comparsa campi proposta miglioramento">18681a5ddb8620108dd29444ca9619e6</ui_policy><visible>true</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-140330849</payload_hash>
+        <record_name>benefici</record_name>
+        <reverted_from/>
+        <source>42a7c611db8620108dd29444ca9619cd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-30 22:05:59</sys_created_on>
+        <sys_id>4b4d9251dbc620108dd29444ca96194e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1775554d9330000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-30 22:05:59</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>c34d925165c62010f0cc691f7042374e</update_guid>
+        <update_guid_history>c34d925165c62010f0cc691f7042374e:-140330849,ea3d1e1177c620105a11e53433bfa732:1658771588,3759929daf86201074177aac079b9477:1685195200</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-30 22:09:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>7bf23f87cc4c4e219e7057cfa7007f91</sys_id>
+        <sys_metadata>f559929ddb8620108dd29444ca961972</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>benefici</sys_name>
+        <sys_package display_value="Bacheca" source="x_570201_bacheca">42a7c611db8620108dd29444ca9619cb</sys_package>
+        <sys_parent display_value="3-Comparsa campi proposta miglioramento">18681a5ddb8620108dd29444ca9619e6</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Bacheca">42a7c611db8620108dd29444ca9619cb</sys_scope>
+        <sys_scope_delete display_value="">3f00cfae93fa491187ff8b5226eb3649</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_f559929ddb8620108dd29444ca961972</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_f559929ddb8620108dd29444ca961972">4b4d9251dbc620108dd29444ca96194e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-30 22:09:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

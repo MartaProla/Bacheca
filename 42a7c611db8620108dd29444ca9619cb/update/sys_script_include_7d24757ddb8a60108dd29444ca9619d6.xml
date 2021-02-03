@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_570201_bacheca.GetCognomeUtente</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>GetCognomeUtente</name>
+        <script><![CDATA[var GetCognomeUtente = Class.create();
+GetCognomeUtente.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	getCognomeUtente: function(){
+		var userRecord = new GlideRecord('x_570201_bacheca_utente');
+		userRecord.get(this.getParameter('sysparm_number'));
+		return userRecord.cognome;
+	},
+    type: 'GetCognomeUtente'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-01 08:24:04</sys_created_on>
+        <sys_id>7d24757ddb8a60108dd29444ca9619d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GetCognomeUtente</sys_name>
+        <sys_package display_value="Bacheca" source="x_570201_bacheca">42a7c611db8620108dd29444ca9619cb</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Bacheca">42a7c611db8620108dd29444ca9619cb</sys_scope>
+        <sys_update_name>sys_script_include_7d24757ddb8a60108dd29444ca9619d6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-01 08:24:04</sys_updated_on>
+    </sys_script_include>
+</record_update>

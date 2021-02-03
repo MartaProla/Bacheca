@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="tipo_informale" table="x_570201_bacheca_annuncio" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>tipo_informale</element>
+            <name>x_570201_bacheca_annuncio</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-30 21:13:37</sys_created_on>
+            <sys_id>77411619db8620108dd29444ca9619ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>tipo_informale</sys_name>
+            <sys_package display_value="Bacheca" source="x_570201_bacheca">42a7c611db8620108dd29444ca9619cb</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Bacheca">42a7c611db8620108dd29444ca9619cb</sys_scope>
+            <sys_update_name>sys_choice_x_570201_bacheca_annuncio_tipo_informale</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-30 21:13:37</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tipo_informale</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pizzata</label>
+            <language>en</language>
+            <name>x_570201_bacheca_annuncio</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-30 21:22:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f9539a59db8620108dd29444ca9619f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-30 21:22:29</sys_updated_on>
+            <value>40</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tipo_informale</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Choice 1</label>
+            <language>en</language>
+            <name>x_570201_bacheca_annuncio</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-30 21:13:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3f411619db8620108dd29444ca9619ad</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-30 21:22:29</sys_updated_on>
+            <value>Choice 1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tipo_informale</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Weekend fuori</label>
+            <language>en</language>
+            <name>x_570201_bacheca_annuncio</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-30 21:22:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b5539a59db8620108dd29444ca9619f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-30 21:22:29</sys_updated_on>
+            <value>41</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tipo_informale</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Choice 2</label>
+            <language>en</language>
+            <name>x_570201_bacheca_annuncio</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-30 21:13:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b7411619db8620108dd29444ca9619af</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-30 21:22:29</sys_updated_on>
+            <value>Choice 2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tipo_informale</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Gita</label>
+            <language>en</language>
+            <name>x_570201_bacheca_annuncio</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-30 21:22:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>39539a59db8620108dd29444ca9619f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-30 21:22:29</sys_updated_on>
+            <value>42</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tipo_informale</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Choice 3</label>
+            <language>en</language>
+            <name>x_570201_bacheca_annuncio</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-30 21:13:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3b411619db8620108dd29444ca9619b0</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-30 21:22:29</sys_updated_on>
+            <value>Choice 3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tipo_informale</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Altro tipo evento informale</label>
+            <language>en</language>
+            <name>x_570201_bacheca_annuncio</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-30 21:22:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b9539a59db8620108dd29444ca9619f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-30 21:22:29</sys_updated_on>
+            <value>altro_informale</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="DELETE">
+        <active>true</active>
+        <conditions table="x_570201_bacheca_annuncio">tipo_annuncio=3^tipologia_proposta=altra_proposta^EQ<item display_value="Proposta miglioramento qualità del lavoro" endquery="false" field="tipo_annuncio" goto="false" newquery="false" operator="=" or="false" value="3"/>
+            <item display_value="Altra proposta" endquery="false" field="tipologia_proposta" goto="false" newquery="false" operator="=" or="false" value="altra_proposta"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+	g_form.showFieldMsg('altra_proposta','Inserisci altra proposta','info');
+}]]></script_true>
+        <set_values/>
+        <short_description>3a-Comparsa campo altra proposta</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-30 21:54:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>286a12dddb8620108dd29444ca96197d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>3a-Comparsa campo altra proposta</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Bacheca" source="x_570201_bacheca">42a7c611db8620108dd29444ca9619cb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bacheca">42a7c611db8620108dd29444ca9619cb</sys_scope>
+        <sys_update_name>sys_ui_policy_286a12dddb8620108dd29444ca96197d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-30 21:56:30</sys_updated_on>
+        <table>x_570201_bacheca_annuncio</table>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_ui_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Bacheca">42a7c611db8620108dd29444ca9619cb</application>
+        <file_path/>
+        <instance_id>fc8d6998db7dd7048264f70fbf961977</instance_id>
+        <instance_name>dev57482</instance_name>
+        <name>sys_ui_policy_286a12dddb8620108dd29444ca96197d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="x_570201_bacheca_annuncio"&gt;tipo_annuncio=3^tipologia_proposta=altra_proposta^EQ&lt;item display_value="Proposta miglioramento qualità del lavoro" endquery="false" field="tipo_annuncio" goto="false" newquery="false" operator="=" or="false" value="3"/&gt;&lt;item display_value="Altra proposta" endquery="false" field="tipologia_proposta" goto="false" newquery="false" operator="=" or="false" value="altra_proposta"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;true&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+	g_form.showFieldMsg('altra_proposta','Inserisci altra proposta','info');
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;3a-Comparsa campo altra proposta&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-01-30 21:54:40&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;286a12dddb8620108dd29444ca96197d&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;3a-Comparsa campo altra proposta&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Bacheca" source="x_570201_bacheca"&gt;42a7c611db8620108dd29444ca9619cb&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Bacheca"&gt;42a7c611db8620108dd29444ca9619cb&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_286a12dddb8620108dd29444ca96197d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-01-30 21:56:30&lt;/sys_updated_on&gt;&lt;table&gt;x_570201_bacheca_annuncio&lt;/table&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1692724300</payload_hash>
+        <record_name>3a-Comparsa campo altra proposta</record_name>
+        <reverted_from/>
+        <source>42a7c611db8620108dd29444ca9619cd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-30 21:56:30</sys_created_on>
+        <sys_id>cc2b1adddb8620108dd29444ca961958</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177554c278d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-30 21:56:30</sys_updated_on>
+        <type>UI Policy</type>
+        <update_guid>482b1addbc862010e234c4b080892358</update_guid>
+        <update_guid_history>482b1addbc862010e234c4b080892358:-1692724300,55bada9d6b862010ca72ed3ff9f7cad4:-1127146427</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-30 22:42:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy">sys_ui_policy</sys_db_object>
+        <sys_id>87a71a60647c43448edab6d80f49d169</sys_id>
+        <sys_metadata>286a12dddb8620108dd29444ca96197d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>3a-Comparsa campo altra proposta</sys_name>
+        <sys_package display_value="Bacheca" source="x_570201_bacheca">42a7c611db8620108dd29444ca9619cb</sys_package>
+        <sys_parent display_value="Annuncio">e1e84a91db8620108dd29444ca961969</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Bacheca">42a7c611db8620108dd29444ca9619cb</sys_scope>
+        <sys_scope_delete display_value="">3f00cfae93fa491187ff8b5226eb3649</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_286a12dddb8620108dd29444ca96197d</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_286a12dddb8620108dd29444ca96197d">cc2b1adddb8620108dd29444ca961958</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-30 22:42:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

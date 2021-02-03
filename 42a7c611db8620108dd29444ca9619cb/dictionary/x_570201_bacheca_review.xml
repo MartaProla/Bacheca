@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Review" max_length="40" name="x_570201_bacheca_review" sizeclass="6" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Cognome Utente" max_length="40" name="cognome_utente" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="100" label="Come conoscevi l'evento?" max_length="40" name="come_evento" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Social" sequence="0" value="100"/>
+                <element inactive_on_update="false" label="Amici" sequence="1" value="101"/>
+                <element inactive_on_update="false" label="Colleghi di lavoro" sequence="2" value="102"/>
+                <element inactive_on_update="false" label="Altro motivo" sequence="3" value="altro_motivo_review"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Data annuncio" max_length="40" name="data_annuncio" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Data review" mandatory="true" max_length="40" name="data_review" type="glide_date"/>
+        <element attributes="encode_utf8=false" label="ID annuncio" max_length="32" name="id_annuncio" reference="x_570201_bacheca_annuncio" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Nome Utente" max_length="40" name="nome_utente" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Se no, perchè?" max_length="40" name="no_per" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Punti di debolezza dell'evento" max_length="1000" name="punti_debolezza" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Punti di forza dell'evento" max_length="1000" name="punti_forza" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Testo della review" mandatory="true" max_length="1000" name="testo_review" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Titolo della review" mandatory="true" max_length="40" name="titolo_review" type="string"/>
+        <element attributes="encode_utf8=false" label="Utente" max_length="32" name="utente" reference="x_570201_bacheca_utente" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Altro motivo" max_length="40" name="u_altro_motivo_revi" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Email utente" max_length="40" name="u_email_utente_review" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="91" label="Stelle di valutazione" max_length="40" name="u_stelle" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="91"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="92"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="93"/>
+                <element inactive_on_update="false" label="4" sequence="3" value="94"/>
+                <element inactive_on_update="false" label="5" sequence="4" value="95"/>
+            </choice>
+        </element>
+        <element label="Hai trovato utile la review?" max_length="40" name="u_utile_review" type="boolean"/>
+        <index name="index">
+            <element name="utente"/>
+        </index>
+        <index name="index2">
+            <element name="id_annuncio"/>
+        </index>
+    </element>
+</database>

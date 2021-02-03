@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Importare review" max_length="40" name="x_570201_bacheca_importare_review" sizeclass="5" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Testo" label="Testo" max_length="83" name="u_testo" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Titolo" label="Titolo" max_length="40" name="u_titolo" type="string"/>
+    </element>
+</database>

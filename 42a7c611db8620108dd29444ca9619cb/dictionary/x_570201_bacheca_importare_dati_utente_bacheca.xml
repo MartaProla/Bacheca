@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Importare dati utente bacheca" max_length="40" name="x_570201_bacheca_importare_dati_utente_bacheca" sizeclass="5" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=codice fiscale" label="codice fiscale" max_length="40" name="u_codice_fiscale" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Cognome" label="Cognome" max_length="40" name="u_cognome" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Luogo di nascita" label="Luogo di nascita" max_length="40" name="u_luogo_di_nascita" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Nome" label="Nome" max_length="40" name="u_nome" type="string"/>
+    </element>
+</database>

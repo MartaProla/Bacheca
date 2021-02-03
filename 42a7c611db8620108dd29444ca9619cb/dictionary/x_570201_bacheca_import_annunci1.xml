@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Import annunci1" max_length="40" name="x_570201_bacheca_import_annunci1" sizeclass="5" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Data Annuncio" label="Data Annuncio" max_length="40" name="u_data_annuncio" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Dove si svolge" label="Dove si svolge" max_length="40" name="u_dove_si_svolge" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Nome evento" label="Nome evento" max_length="40" name="u_nome_evento" type="string"/>
+    </element>
+</database>

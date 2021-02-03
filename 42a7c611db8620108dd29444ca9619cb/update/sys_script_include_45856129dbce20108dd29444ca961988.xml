@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_570201_bacheca.validateString</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>validateString</name>
+        <script><![CDATA[function validateString(str){
+		str = str + '';
+		if(str.match(/^[a-z]+$/i)){
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-31 12:41:29</sys_created_on>
+        <sys_id>45856129dbce20108dd29444ca961988</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>validateString</sys_name>
+        <sys_package display_value="Bacheca" source="x_570201_bacheca">42a7c611db8620108dd29444ca9619cb</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Bacheca">42a7c611db8620108dd29444ca9619cb</sys_scope>
+        <sys_update_name>sys_script_include_45856129dbce20108dd29444ca961988</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-01 12:00:40</sys_updated_on>
+    </sys_script_include>
+</record_update>

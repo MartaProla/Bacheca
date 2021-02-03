@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="System Import Sets">import_sets</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Import dati annunci</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_570201_bacheca_import_dati_annunci</name>
+        <order>1100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-01 09:39:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bea5c679dbca60108dd29444ca961954</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Import dati annunci</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Bacheca" source="x_570201_bacheca">42a7c611db8620108dd29444ca9619cb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bacheca">42a7c611db8620108dd29444ca9619cb</sys_scope>
+        <sys_update_name>sys_app_module_bea5c679dbca60108dd29444ca961954</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-01 09:39:43</sys_updated_on>
+        <timeline_page/>
+        <title>Import dati annunci</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Bacheca">42a7c611db8620108dd29444ca9619cb</application>
+        <file_path/>
+        <instance_id>fc8d6998db7dd7048264f70fbf961977</instance_id>
+        <instance_name>dev57482</instance_name>
+        <name>sys_app_module_bea5c679dbca60108dd29444ca961954</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="System Import Sets">import_sets</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Import dati annunci</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_570201_bacheca_import_dati_annunci</name><order>1100</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-02-01 09:39:43</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>bea5c679dbca60108dd29444ca961954</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Import dati annunci</sys_name><sys_overrides/><sys_package display_value="Bacheca" source="x_570201_bacheca">42a7c611db8620108dd29444ca9619cb</sys_package><sys_policy/><sys_scope display_value="Bacheca">42a7c611db8620108dd29444ca9619cb</sys_scope><sys_update_name>sys_app_module_bea5c679dbca60108dd29444ca961954</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-02-01 09:39:43</sys_updated_on><timeline_page/><title>Import dati annunci</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>782270928</payload_hash>
+        <record_name>Import dati annunci</record_name>
+        <reverted_from/>
+        <source>42a7c611db8620108dd29444ca9619cd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-01 09:39:43</sys_created_on>
+        <sys_id>76a5c679dbca60108dd29444ca961963</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1775cf653770000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-01 09:39:43</sys_updated_on>
+        <type>Module</type>
+        <update_guid>bea5c67950ca60107459ee5e537f5262</update_guid>
+        <update_guid_history>bea5c67950ca60107459ee5e537f5262:782270928</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Import dati annunci">0d33cfb1db8e60108dd29444ca9619b0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-01 14:08:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>13e5a930a84f4cd38657500ee6fdedb1</sys_id>
+        <sys_metadata>bea5c679dbca60108dd29444ca961954</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Import dati annunci</sys_name>
+        <sys_package display_value="Bacheca" source="x_570201_bacheca">42a7c611db8620108dd29444ca9619cb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Bacheca">42a7c611db8620108dd29444ca9619cb</sys_scope>
+        <sys_scope_delete display_value="">3f00cfae93fa491187ff8b5226eb3649</sys_scope_delete>
+        <sys_update_name>sys_app_module_bea5c679dbca60108dd29444ca961954</sys_update_name>
+        <sys_update_version display_value="sys_app_module_bea5c679dbca60108dd29444ca961954">76a5c679dbca60108dd29444ca961963</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-01 14:08:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
