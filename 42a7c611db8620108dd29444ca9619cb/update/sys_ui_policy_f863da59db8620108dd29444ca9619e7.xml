@@ -32,7 +32,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f863da59db8620108dd29444ca9619e7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>1-Situazione iniziale</sys_name>
         <sys_overrides/>
         <sys_package display_value="Bacheca" source="x_570201_bacheca">42a7c611db8620108dd29444ca9619cb</sys_package>
@@ -40,9 +40,9 @@
         <sys_scope display_value="Bacheca">42a7c611db8620108dd29444ca9619cb</sys_scope>
         <sys_update_name>sys_ui_policy_f863da59db8620108dd29444ca9619e7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-30 21:23:39</sys_updated_on>
+        <sys_updated_on>2021-02-03 17:29:47</sys_updated_on>
         <table>x_570201_bacheca_annuncio</table>
-        <ui_type>0</ui_type>
+        <ui_type>10</ui_type>
         <view/>
     </sys_ui_policy>
 </record_update>

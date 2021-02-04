@@ -18,7 +18,6 @@
 
 }]]></script_false>
         <script_true><![CDATA[function onCondition() {
-	g_form.showFieldMsg('u_altro_motivo_revi','Inserisci il motivo','info');
 }]]></script_true>
         <set_values/>
         <short_description>6-Comparsa campo altro motivo tabella Review</short_description>
@@ -28,7 +27,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>21146069db0e20108dd29444ca9619e6</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>6-Comparsa campo altro motivo tabella Review</sys_name>
         <sys_overrides/>
         <sys_package display_value="Bacheca" source="x_570201_bacheca">42a7c611db8620108dd29444ca9619cb</sys_package>
@@ -36,7 +35,7 @@
         <sys_scope display_value="Bacheca">42a7c611db8620108dd29444ca9619cb</sys_scope>
         <sys_update_name>sys_ui_policy_21146069db0e20108dd29444ca9619e6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-31 08:02:28</sys_updated_on>
+        <sys_updated_on>2021-02-03 17:32:47</sys_updated_on>
         <table>x_570201_bacheca_review</table>
         <ui_type>10</ui_type>
         <view/>

@@ -19,7 +19,7 @@
 
 }]]></script_false>
         <script_true><![CDATA[function onCondition() {
-	g_form.showFieldMsg('causa_annullamento','Indicare il motivo annullamento','info');
+	
 }]]></script_true>
         <set_values/>
         <short_description>2b-Comparsa campo causa annullamento</short_description>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7866ded9db8620108dd29444ca9619fc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>2b-Comparsa campo causa annullamento</sys_name>
         <sys_overrides/>
         <sys_package display_value="Bacheca" source="x_570201_bacheca">42a7c611db8620108dd29444ca9619cb</sys_package>
@@ -37,9 +37,9 @@
         <sys_scope display_value="Bacheca">42a7c611db8620108dd29444ca9619cb</sys_scope>
         <sys_update_name>sys_ui_policy_7866ded9db8620108dd29444ca9619fc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-30 21:38:11</sys_updated_on>
+        <sys_updated_on>2021-02-03 17:29:31</sys_updated_on>
         <table>x_570201_bacheca_annuncio</table>
-        <ui_type>0</ui_type>
+        <ui_type>10</ui_type>
         <view/>
     </sys_ui_policy>
 </record_update>
